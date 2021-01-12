@@ -6,14 +6,8 @@ It is composed of multiple elements:
 - a jupyter notebook *spam_filtering.ipynb* that gathers all the code used to preprocessed data and run models
 - a jupyter notebook *results.ipynb* that gathers plots to visualise and compare results
 - a directory *GenSpam* that gathers data from the GenSpam dataset introduced by Ben Medlock
-- a directory *data_tf* that gathers files in which train, adaptation and test data encoded with 700 Term-Frequency attributes
-- a directory *data_timbl* that gathers files in which train, adaptation and test data encoded with *m* Boolean attributes, with *m* varying from 50 to 700 by 50
-- a csv file *df_pre_processing.csv* that gathers pre-processing training data
 - a csv file *timbl_results.csv* that gathers results of all experiments with Memory-Based models
-- a csv file *nb_results.csv* that gathers results of all experiments with Memory-Based models
-
-
-All this work can be found on my GitHub account: [https://github.com/alodieboissonnet/SpamFiltering](https://github.com/alodieboissonnet/SpamFiltering)
+- a csv file *nb_results.csv* that gathers results of all experiments with Naive-Bayes models
 
 
 ## Memory-Based models
